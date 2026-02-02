@@ -10,8 +10,8 @@ const MobileMenu = ({ isOpen, onClose }) => {
           <ul className="mobile-menu-list">
             <li><a href="#services" onClick={onClose}>Услуги</a></li>
             <li><a href="#tariffs" onClick={onClose}>Тарифы</a></li>
-            <li><a href="#team" onClick={onClose}>Наши</a></li>
-            <li><a href="#cases" onClick={onClose}>Кейсы</a></li>
+            <li><a href="#tariffs" onClick={onClose}>Наши</a></li>
+            <li><a href="#services" onClick={onClose}>Кейсы</a></li>
             <li><a href="#faq" onClick={onClose}>FAQ</a></li>
             <li><a href="#contact" onClick={onClose}>Контакты</a></li>
           </ul>
